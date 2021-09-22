@@ -8,40 +8,61 @@ let fun = window.document.getElementsByName("fun") // Boxes Radio
 let noia = " " // Nome Do Nóia
 let fotonoia = " " // Foto Do Nóia
 let sobrenoia = " " // Descrição do Nóia
-let nota = 0
+let validador = " "
+let cima = 0
+let baixo = 0
 function cabo() {
     if (som[0].checked) { // 1
-        nota += 1
+        cima += 1
+    }
+    else if (som[1].checked) {
+        baixo += 1
     }
     else {
-        nota -= 1
+        validador = "n"
     }
+
     if (bune[0].checked) { // 2
-        nota += 1
+        cima += 1
+    }
+    else if (bune[1].checked) {
+        baixo += 1
     }
     else {
-        nota -= 1
+        validador = "n"
     }
+
     if (laco[0].checked) { // 3
-        nota += 1
+        cima += 1
+    }
+    else if (laco[1].checked) {
+        baixo += 1
     }
     else {
-        nota -= 1
+        validador = "n"
     }
+
     if (juli[0].checked) { // 4
-        nota += 1
+        cima += 1
+    }
+    else if (juli[1].checked) {
+        baixo += 1
     }
     else {
-        nota -= 1
+        validador = "n"
     }
+
     if (fun[0].checked) { // 5
-        nota += 1
+        cima += 1
+    }
+    else if (fun[1].checked) {
+        baixo += 1
     }
     else {
-        nota -= 1
+        validador = "n"
     }
     cont.innerHTML = ""
-    resp.innerHTML = `<p>Parabéns Você é Um nóia ${nota}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia}</p>`
+    resp.innerHTML = `<p>Parabéns Você é Um nóia ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia}</p>`
     resp.style.backgroundColor = "#888888"
     resp.style.width = "1200px"
     resp.style.borderRadius = "10px"
