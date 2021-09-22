@@ -48,21 +48,21 @@ input {
 }
 footer {
     margin-top: 100px;
-    background-image: url("pexels-mitchell-luo-3694711.jpg");
+    background-image: url("pexels-life-of-pix-8892 (1).jpg");
     height: 250px;
 }
 footer h2 {
     text-align: center;
     font: normal 80px txt;
-    text-shadow: 3px 3px 3px white;
-    color: rgb(0, 0, 119);
+    text-shadow: 3px 3px 3px black;
+    color: white;
     line-height: 150px;
 }
 footer p {
     text-align: center;
     font: normal 20px txt;
-    color: rgb(0, 0, 119);
-    text-shadow: 3px 3px 3px white;
+    color: white;
+    text-shadow: 3px 3px 3px black;
     width: 100%;
 }
 h2 {
