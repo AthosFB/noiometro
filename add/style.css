@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "noia";
+    src: url("CAMPUS PERSONAL USE.ttf") format("opentype");
+}
+@font-face {
+    font-family: "txt";
+    src: url("Mayan.ttf") format("opentype");
+}
+header {
+    background-color: #888888;
+    height: 250px;
+}
+header h1 {
+    text-align: center;
+    font: normal 100px noia;
+    line-height: 250px;
+}
+.prime { 
+    margin-top: 80px;
+}
+label {
+    font: normal 30px txt;
+    display: inline-block;
+}
+form {  
+    width: 1000px;
+    margin: auto;
+}
+#fim:hover {
+    background-color: #F59A01;
+}
+input {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+#fim {
+    margin-top: 50px;
+    width: 300px;
+    height: 100px;
+    font: normal 50px noia;
+    margin-left: 350px;
+}
+footer {
+    margin-top: 100px;
+    background-image: url("pexels-mitchell-luo-3694711.jpg");
+    height: 250px;
+}
+footer h2 {
+    text-align: center;
+    font: normal 80px txt;
+    text-shadow: 3px 3px 3px white;
+    color: rgb(0, 0, 119);
+    line-height: 150px;
+}
+footer p {
+    text-align: center;
+    font: normal 20px txt;
+    color: rgb(0, 0, 119);
+    text-shadow: 3px 3px 3px white;
+}
