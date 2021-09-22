@@ -10,6 +10,7 @@ header {
     background-color: #888888;
     height: 250px;
     width: 100%;
+    margin: 0 0 100px 0;
 }
 header h1 {
     text-align: center;
@@ -26,6 +27,9 @@ label {
 form {  
     width: 1000px;
     margin: auto;
+    border: 10px solid black;
+    padding: 30px;
+    border-radius: 10px;
 }
 #fim:hover {
     background-color: #F59A01;
@@ -60,4 +64,8 @@ footer p {
     color: rgb(0, 0, 119);
     text-shadow: 3px 3px 3px white;
     width: 100%;
+}
+h2 {
+    font: normal 50px noia;
+    text-align: center;
 }
