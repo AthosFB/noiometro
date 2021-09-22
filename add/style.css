@@ -9,6 +9,7 @@
 header {
     background-color: #888888;
     height: 250px;
+    width: 100%;
 }
 header h1 {
     text-align: center;
@@ -58,4 +59,5 @@ footer p {
     font: normal 20px txt;
     color: rgb(0, 0, 119);
     text-shadow: 3px 3px 3px white;
+    width: 100%;
 }
