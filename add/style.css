@@ -12,17 +12,17 @@
 }
 header {
     background-color: #888888;
-    height: 250px;
+    height: 100%;
     width: 100%;
-    margin: 0 0 100px 0;
+    margin: 0 0 5% 0;
 }
 header h1 {
     text-align: center;
-    font: normal 100px noia;
+    font: normal 7em noia;
     line-height: 250px;
 }
 .prime { 
-    margin-top: 80px;
+    margin-top: 5%;
 }
 label {
     display: inline-block;
@@ -36,7 +36,7 @@ li {
     font: normal 30px txt;
 }
 form {  
-    width: 1000px;
+    width: 54%;
     margin-left: 200px;
     border: 10px solid black;
     padding: 30px;
@@ -51,9 +51,9 @@ form {
     height: 1400px;
     background-color: #888888;
     box-shadow: 3px 3px 3px #F59A01;
-    width: 450px;
+    width: 25%;
     float: right;
-    margin-right: 80px;
+    margin-right: 3%;
     border-radius: 10px;
 }
 #musinoia h2{
@@ -62,9 +62,8 @@ form {
     margin-top: 100px;
 }
 #musi {
-    height: 225px;
-    width: 405px;
-    margin-left: 25px;
+    height: 18.8%;
+    width: 100%;
     margin-top: 100px;
 }
 input {
@@ -75,10 +74,10 @@ input {
 }
 #fim {
     margin-top: 50px;
-    width: 300px;
+    width: 30%;
     height: 100px;
-    font: normal 40px pingu;
-    margin-left: 350px;
+    font: normal 2.7em pingu;
+    margin-left: 37%;
 }
 footer {
     margin-top: 100px;

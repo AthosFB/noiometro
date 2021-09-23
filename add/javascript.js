@@ -13,85 +13,83 @@ let noia = " " // Nome Do Nóia
 let fotonoia = " " // Foto Do Nóia
 let sobrenoia = " " // Descrição do Nóia
 let validador = " " // Pra ver Se Ta Tudo Completado
-let cima = 0 // Quando Preneche O box De Cima
-let baixo = 0 // Quando Preneche O box De Baixo
 let tot = 0
 function cabo() {
     if (som[0].checked) { // 1
-        cima += 1
+        tot += 1
     }
     else if (som[1].checked) {
-        baixo += 1
+        tot -= 1
     }
     else {
         validador = "n"
     }
 
     if (bune[0].checked) { // 2
-        cima += 1
+        tot += 1
     }
     else if (bune[1].checked) {
-        baixo += 1
+        tot -= 2
     }
     else {
         validador = "n"
     }
 
     if (laco[0].checked) { // 3
-        cima += 1
+        tot += 2
     }
     else if (laco[1].checked) {
-        baixo += 1
+        tot -= 2
     }
     else {
         validador = "n"
     }
 
     if (juli[0].checked) { // 4
-        cima += 1
+        tot += 3
     }
     else if (juli[1].checked) {
-        baixo += 1
+        tot -= 1
     }
     else {
         validador = "n"
     }
 
     if (fun[0].checked) { // 5
-        cima += 1
+        tot += 1
     }
     else if (fun[1].checked) {
-        baixo += 1
+        tot -= 4
     }
     else {
         validador = "n"
     }
 
     if (cert[0].checked) { // 6
-        cima += 1
+        tot += 1
     }
     else if (cert[1].checked) {
-        baixo += 1
+        tot -= 1
     }
     else {
         validador = "n"
     }
 
     if (beck[0].checked) { // 7
-        cima += 1
+        tot += 5
     }
     else if (beck[1].checked) {
-        baixo += 1
+        tot -= 1
     }
     else {
         validador = "n"
     }
 
     if (brink[0].checked) { // 8
-        cima += 1
+        tot += 3
     }
     else if (brink[1].checked) {
-        baixo += 1
+        tot -= 1
     }
     else {
         validador = "n"
@@ -99,7 +97,7 @@ function cabo() {
 
     if (validador != "n") {
         cont.innerHTML = ""
-        resp.innerHTML = `<p>Parabéns Você é Um nóia ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia} ${cima} -- ${baixo}</p>`
+        resp.innerHTML = `<p>Parabéns Você é Um nóia ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia} ${tot}</p>`
         resp.style.backgroundColor = "#888888"
         resp.style.width = "1200px"
         resp.style.borderRadius = "10px"
