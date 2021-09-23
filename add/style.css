@@ -15,8 +15,6 @@ header {
     height: 100%;
     width: 100%;
     margin: 0 0 5% 0;
-}
-header h1 {
     text-align: center;
     font: normal 7em noia;
     line-height: 250px;
@@ -48,7 +46,7 @@ form {
     cursor: pointer;
 }
 #musinoia {
-    height: 1400px;
+    height: 1000px;
     background-color: #888888;
     box-shadow: 3px 3px 3px #F59A01;
     width: 25%;
@@ -62,7 +60,7 @@ form {
     margin-top: 100px;
 }
 #musi {
-    height: 18.8%;
+    height: 26.3%;
     width: 100%;
     margin-top: 100px;
 }
