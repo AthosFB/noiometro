@@ -26,6 +26,7 @@ header h1 {
 }
 label {
     display: inline-block;
+    cursor: pointer;
 }
 form h2 {
     font-family: pingu;
@@ -43,6 +44,8 @@ form {
 }
 #fim:hover {
     background-color: #F59A01;
+    transition: 0.5s;
+    cursor: pointer;
 }
 #musinoia {
     height: 1400px;
@@ -53,7 +56,7 @@ form {
     margin-right: 80px;
     border-radius: 10px;
 }
-#musinoia p{
+#musinoia h2{
     font: normal 30px txt;
     text-align: center;
     margin-top: 100px;
@@ -68,6 +71,7 @@ input {
     width: 30px;
     height: 30px;
     display: inline-block;
+    cursor: pointer;
 }
 #fim {
     margin-top: 50px;
