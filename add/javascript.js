@@ -6,6 +6,8 @@ let laco = window.document.getElementsByName("laco") // Boxes Radio
 let juli = window.document.getElementsByName("juli") // Boxes Radio 
 let fun = window.document.getElementsByName("fun") // Boxes Radio
 let cert = window.document.getElementsByName("cert") // Boxes Radio
+let beck = window.document.getElementsByName("beck") // Boxes Radio
+let brink = window.document.getElementsByName("brink") // Boxes Radio
 let zoa = window.document.getElementById("zoanoia")
 let noia = " " // Nome Do Nóia
 let fotonoia = " " // Foto Do Nóia
@@ -13,6 +15,7 @@ let sobrenoia = " " // Descrição do Nóia
 let validador = " " // Pra ver Se Ta Tudo Completado
 let cima = 0 // Quando Preneche O box De Cima
 let baixo = 0 // Quando Preneche O box De Baixo
+let tot = 0
 function cabo() {
     if (som[0].checked) { // 1
         cima += 1
@@ -63,6 +66,7 @@ function cabo() {
     else {
         validador = "n"
     }
+
     if (cert[0].checked) { // 6
         cima += 1
     }
@@ -72,6 +76,27 @@ function cabo() {
     else {
         validador = "n"
     }
+
+    if (beck[0].checked) { // 7
+        cima += 1
+    }
+    else if (beck[1].checked) {
+        baixo += 1
+    }
+    else {
+        validador = "n"
+    }
+
+    if (brink[0].checked) { // 8
+        cima += 1
+    }
+    else if (brink[1].checked) {
+        baixo += 1
+    }
+    else {
+        validador = "n"
+    }
+
     if (validador != "n") {
         cont.innerHTML = ""
         resp.innerHTML = `<p>Parabéns Você é Um nóia ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia} ${cima} -- ${baixo}</p>`
