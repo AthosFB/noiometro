@@ -94,10 +94,10 @@ function cabo() {
     else {
         validador = "n"
     }
-
     if (validador != "n") {
+        escolhe()
         cont.innerHTML = ""
-        resp.innerHTML = `<p>Parabéns Você é Um nóia ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia} ${tot}</p>`
+        resp.innerHTML = `<p>Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia} ${tot}</p>`
         resp.style.backgroundColor = "#888888"
         resp.style.width = "1200px"
         resp.style.borderRadius = "10px"
@@ -113,5 +113,49 @@ function cabo() {
         zoa.style.borderRadius = "10px"
         zoa.style.textAlign = "center"
         validador = ""
+    }
+    function escolhe() {
+        switch (tot) {
+            case 17:
+                noia = "Garibaldo"
+                fotonoia = "../noia/garibaldo.jpg"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (30/30)"
+                break
+            case 16:
+                noia = "Nóia Nóia"
+                fotonoia = "../noia/noia.jfif"
+                sobrenoia = "Você quase o melhor nóia, e tem tudo para UM DIA ser o NÓIA DOS NÓIA (29/30)"
+                break
+            case 15:
+                noia = "Lindu Nóia"
+                fotonoia = "../noia/lindinho.jpg"
+                sobrenoia = "Você é um nóia definitivamente, talvez não tão completo mas atinjes muitos dos requisitos para ser um nóia (28/30)"
+                break
+            case 14:
+                noia = "Anão Nóia"
+                fotonoia = "../noia/anao-noia.jpg"
+                sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (27/30)"
+                break
+            case 13:
+                noia = "Garibaldo"
+                fotonoia = "../noia/garibaldo.jpg"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (26/30)"
+                break
+            case 12:
+                noia = "Garibaldo"
+                fotonoia = "../noia/garibaldo.jpg"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (25/30)"
+                break
+            case 11:
+                noia = "Garibaldo"
+                fotonoia = "../noia/garibaldo.jpg"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (24/30)"
+                break
+            case 10:
+                noia = "Garibaldo"
+                fotonoia = "../noia/garibaldo.jpg"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (23/30)"
+                break
+        }
     }
 }
