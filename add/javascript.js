@@ -130,62 +130,62 @@ function cabo() {
     }
     function escolhe() {
         switch (tot) {
-            case 18:
+            case 23:
                 noia = "Garibaldo"
                 fotonoia = "noia/garibaldo.jpg"
                 sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia, Na verdade você garibaldos não são noias, NÓIAS SÃO GARIBALDOS(50/50)"
                 break
-            case 17:
+            case 22:
                 noia = "Nóia Nóia"
                 fotonoia = "noia/noia.jfif"
                 sobrenoia = "Você quase o melhor nóia, e tem tudo para UM DIA ser o NÓIA DOS NÓIA (31/50)"
                 break
-            case 16:
+            case 21:
                 noia = "Lindu Nóia"
                 fotonoia = "noia/lindinho.jpg"
                 sobrenoia = "Você é um nóia definitivamente, talvez não tão completo mas atinjes muitos dos requisitos para ser um nóia (30/32)"
                 break
-            case 15:
+            case 20:
                 noia = "Anão Nóia"
                 fotonoia = "noia/anao-noia.jpg"
                 sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (29/32)"
                 break
-            case 14:
+            case 19:
                 noia = "Cachorro Fumaça"
                 fotonoia = "noia/cachorro-fumaça.jpg"
                 sobrenoia = "MACONHERU, vai murre antes do natal, um nóia diferenciado (28/32)"
                 break
-            case 13:
+            case 18:
                 noia = "Nóia Armado"
                 fotonoia = "noia/nóia-armado.jpg"
                 sobrenoia = "Um nóia que perambula com um fuzil .50 nas kostas naipy GTA, já perdeu dois dedo por ser meio burro (27/32)"
                 break
-            case 12:
+            case 17:
                 noia = "Nóia Diferente"
                 fotonoia = "noia/noia-cagado.jfif"
                 sobrenoia = "Você é um nóia mas não tão bom, mas é um nóia, do tipo que rouba fio de posto de gasolina falido! (26/32)"
                 break
-            case 11:
+            case 16:
                 noia = "Rusbé"
                 fotonoia = "noia/rusbe.jpg"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (25/32)"
                 break
-            case 10:
+            case 15:
                 noia = "Tipo de Tuê"
                 fotonoia = "noia/matue-deep-web.jpg"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (24/32)"
                 break
-            case 9:
+            case 14:
                 noia = "Loirin Jusé"
                 fotonoia = "noia/loro.jpg"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (23/32)"
                 break
-            case 8:
+            case 13:
                 noia = "Nóia Diferente"
                 fotonoia = "noia/noia-cagado.jfif"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (22/32)"
                 break
-            case 7:
+            case 12:
                 noia = "Nóia Diferente"
                 fotonoia = "noia/noia-cagado.jfif"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (21/32)"
