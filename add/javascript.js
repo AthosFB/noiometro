@@ -9,6 +9,7 @@ let cert = window.document.getElementsByName("cert") // Boxes Radio
 let beck = window.document.getElementsByName("beck") // Boxes Radio
 let brink = window.document.getElementsByName("brink") // Boxes Radio
 let zoa = window.document.getElementById("zoanoia")
+let para = window.document.getElementById("para")
 let noia = " " // Nome Do Nóia
 let fotonoia = " " // Foto Do Nóia
 let sobrenoia = " " // Descrição do Nóia
@@ -97,13 +98,15 @@ function cabo() {
     if (validador != "n") {
         escolhe()
         cont.innerHTML = ""
-        resp.innerHTML = `<p>Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p>${sobrenoia} ${tot}</p>`
+        resp.innerHTML = `<p id="para">Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p id="para">${sobrenoia}</p>`
         resp.style.backgroundColor = "#888888"
         resp.style.width = "1200px"
         resp.style.borderRadius = "10px"
         resp.style.margin = "auto"
         resp.style.textAlign = "center"
         fot.style.height = "500px"
+        resp.style.font = "normal 40px txt"
+        resp.style.padding = "30px"
     }
     else {
         zoa.innerText = "Completa os Bagui Aí O Nóia"
@@ -137,24 +140,44 @@ function cabo() {
                 sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (27/30)"
                 break
             case 13:
-                noia = "Garibaldo"
-                fotonoia = "noia/garibaldo.jpg"
-                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (26/30)"
+                noia = "Cachorro Fumaça"
+                fotonoia = "noia/cachorro-fumaça.jpg"
+                sobrenoia = "MACONHERU, vai murre antes do natal, um nóia diferenciado (26/30)"
                 break
             case 12:
-                noia = "Garibaldo"
-                fotonoia = "noia/garibaldo.jpg"
-                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (25/30)"
+                noia = "Nóia Armado"
+                fotonoia = "noia/nóia-armado.jpg"
+                sobrenoia = "Um nóia que perambula com um fuzil .50 nas kostas naipy GTA, já perdeu dois dedo por ser meio burro (25/30)"
                 break
             case 11:
-                noia = "Garibaldo"
-                fotonoia = "noia/garibaldo.jpg"
-                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (24/30)"
+                noia = "Nóia Diferente"
+                fotonoia = "noia/noia-cagado.jfif"
+                sobrenoia = "Você é um nóia mas não tão bom, mas é um nóia, do tipo que rouba fio de posto de gasolina falido! (24/30)"
                 break
             case 10:
-                noia = "Garibaldo"
-                fotonoia = "noia/garibaldo.jpg"
-                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (23/30)"
+                noia = "Rusbé"
+                fotonoia = "noia/rusbe.jpg"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (23/30)"
+                break
+            case 9:
+                noia = "Tipo de Tuê"
+                fotonoia = "noia/matue-deep-web.jpg"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (22/30)"
+                break
+            case 8:
+                noia = "Loirin Jusé"
+                fotonoia = "noia/loro.jpg"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (21/30)"
+                break
+            case 7:
+                noia = "Nóia Diferente"
+                fotonoia = "noia/noia-cagado.jfif"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (20/30)"
+                break
+            case 6:
+                noia = "Nóia Diferente"
+                fotonoia = "noia/noia-cagado.jfif"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (19/30)"
                 break
         }
     }

@@ -10,6 +10,9 @@
     font-family: "pingu";
     src: url("Penguin-Regular.ttf") format("opentype");
 }
+body {
+    background-color: #DDDDDD;
+}
 header {
     background-color: #888888;
     height: 100%;
@@ -39,7 +42,7 @@ form {
     border: 10px solid black;
     padding: 30px;
     border-radius: 10px;
-    background-image: linear-gradient(white, #BBBBBB, white);
+    background-color: white;
 }
 #fim:hover {
     background-color: #F59A01;
