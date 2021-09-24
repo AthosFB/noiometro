@@ -119,7 +119,7 @@ function cabo() {
             case 17:
                 noia = "Garibaldo"
                 fotonoia = "noia/garibaldo.jpg"
-                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia (30/30)"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia, Na verdade você garibaldos não são noias, NÓIAS SÃO GARIBALDOS(30/30)"
                 break
             case 16:
                 noia = "Nóia Nóia"

@@ -39,6 +39,7 @@ form {
     border: 10px solid black;
     padding: 30px;
     border-radius: 10px;
+    background-image: linear-gradient(white, #BBBBBB, white);
 }
 #fim:hover {
     background-color: #F59A01;
