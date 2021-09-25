@@ -181,13 +181,13 @@ function cabo() {
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (23/32)"
                 break
             case 13:
-                noia = "Nóia Diferente"
-                fotonoia = "noia/noia-cagado.jfif"
+                noia = "Lucas Nóismo"
+                fotonoia = "noia/lucas-noia.jpg"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (22/32)"
                 break
             case 12:
-                noia = "Nóia Diferente"
-                fotonoia = "noia/noia-cagado.jfif"
+                noia = "BoB Nóia"
+                fotonoia = "bob-sponja-noia.jfif"
                 sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (21/32)"
                 break
         }
