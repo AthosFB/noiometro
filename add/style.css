@@ -107,3 +107,16 @@ h2 {
 label:hover {
     color: #F59A01;
 }
+#botvolt {
+    width: 400px;
+    height: 100px;
+    background-color: #888888;
+    font: normal 60px pingu;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+#botvolt:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: #F59A01;
+}
