@@ -122,13 +122,14 @@ function cabo() {
         resp.innerHTML = `<p id="para">Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p id="para">${sobrenoia} ${tot}</p>`
         resp.style.backgroundColor = "#888888"
         resp.style.width = "80%"
+        resp.style.height = "100%"
         resp.style.borderRadius = "10px"
-        resp.style.margin = "auto"
+        resp.style.margin = "0px 0px 50px 150px"
         resp.style.textAlign = "center"
         fot.style.height = "500px"
         resp.style.font = "normal 40px txt"
         resp.style.padding = "30px"
-        volt.innerHTML = '<input type="button" value="&lt;= Volt+ r" id="botvolt" onclick="clickvolt()">'
+        volt.innerHTML = '<a href="index.html" id="botvolt"><= Volt+ r</a>'
     }
     else {
         zoa.innerText = "Completa os Bagui Aí O Nóia"
@@ -203,12 +204,4 @@ function cabo() {
                 break
         }
     }
-}
-function clickvolt() {
-    resp.innerHTML = ""
-    volt.innerHTML = ""
-    resp.style.width = "0px"
-    resp.style.height = "0px"
-    resp.style.backgroundColor = "#DDDDDD"
-    cont.innerHTML = '<div id="musinoia"><h2>Ouça Esta Musica Para Responder o Formulário</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/zSE223XxUlo?start=79" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="musi"></iframe></div><form action=""><h2>Formul+ rio De N+ ia</h2><ol><li><label for="som1">Tem riskinho na Sombrançelha</label><input type="radio" name="sombran" id="som1" class="prime"><br><label for="som2">Num Tem riskinho na Sobrancelha</label><input type="radio" name="sombran" id="som2"><br><hr></li><li><label for="cert1">Gosta De Peaky Blinders</label><input type="radio" name="cert" id="cert1" class="prime"><br><label for="cert2">Num Gosta De Peaky Blinders</label><input type="radio" name="cert" id="cert2"><br><hr></li><li><label for="beck1">Fumas Um Beck!</label><input type="radio" name="beck" id="beck1" class="prime"><br><label for="beck2">Num Fumas Um Beck!</label><input type="radio" name="beck" id="beck2"><br><hr></li><li><label for="brink1">Tem Brinquin</label><input type="radio" name="brink" id="brink1" class="prime"><br><label for="brink2">Num Tem Brinquin</label><input type="radio" name="brink" id="brink2"><br><hr></li><li><label for="bune1">Usa Buné</label><input type="radio" name="bune" id="bune1" class="prime"><br><label for="bune2">Num Usa Buné</label><input type="radio" name="bune" id="bune2"><br><hr></li><li><label for="laco1">Usa Lacoste Ou tommy hilfiger</label><input type="radio" name="laco" id="laco1" class="prime"><br><label for="laco2">Num Usa Lacoste Ou tommy hilfiger</label><input type="radio" name="laco" id="laco2"><br><hr></li><li><label for="juli1">Usa Juliete</label><input type="radio" name="juli" id="juli1" class="prime"><br><label for="juli2">Num Usa Juliete</label><input type="radio" name="juli" id="juli2"><br><hr></li><li><label for="fun1">Ouve Funk ou Trap</label><input type="radio" name="fun" id="fun1" class="prime"><br><label for="fun2">Num Ouve Funk ou Trap</label><input type="radio" name="fun" id="fun2"><hr></li><li><label for="gta1">Joga GTA RP</label><input type="radio" name="gta" id="gta1" class="prime"><br><label for="gta2">Num Joga GTA RP</label><input type="radio" name="gta" id="gta2"><br><hr></li><li><label for="mot1">Tem ou Teria Uma Moto</label><input type="radio" name="mot" id="mot1" class="prime"><br><label for="mot2">Num Tem ou Num Teria Uma Moto</label><input type="radio" name="mot" id="mot2"><hr></li></ol><br><p id="zoanoia"></p><input type="button" value="Final+ zar" id="fim" onclick="cabo()"></form>'
 }
