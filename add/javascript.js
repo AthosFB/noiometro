@@ -228,9 +228,9 @@ function cabo() {
                 sobrenoia = "Tu é Um nóia Gaymer! (36/50)"
                 break
             case 13:
-                noia = "Limador"
-                fotonoia = "noia/liminha.jfif"
-                sobrenoia = "Tu é Um nóia Gaymer! (35/50)"
+                noia = "Sidoka"
+                fotonoia = "noia/sidoka.jpg"
+                sobrenoia = "KKK o maluco acha que é nóia msm, melhore! (35/50)"
                 break
         }
     }
