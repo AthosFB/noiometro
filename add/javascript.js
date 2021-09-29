@@ -11,6 +11,7 @@ let beck = window.document.getElementsByName("beck") // Boxes Radio
 let brink = window.document.getElementsByName("brink") // Boxes Radio
 let gta = window.document.getElementsByName("gta") // Boxes Radio
 let mot = window.document.getElementsByName("mot") // Boxes Radio
+let cast = window.document.getElementsByName("cast") // Boxes Radio
 let zoa = window.document.getElementById("zoanoia")
 let para = window.document.getElementById("para")
 let noia = " " // Nome Do Nóia
@@ -102,7 +103,7 @@ function cabo() {
         tot += 1
     }
     else if (gta[1].checked) {
-        tot -= 1
+        tot -= 0
     }
     else {
         validador = "n"
@@ -111,6 +112,15 @@ function cabo() {
         tot += 3
     }
     else if (mot[1].checked) {
+        tot -= 1
+    }
+    else {
+        validador = "n"
+    }
+    if (cast[0].checked) { // 9
+        tot += 0
+    }
+    else if (cast[1].checked) {
         tot -= 1
     }
     else {
@@ -150,57 +160,77 @@ function cabo() {
             case 27:
                 noia = "Nóia Nóia"
                 fotonoia = "noia/noia.jfif"
-                sobrenoia = "Você quase o melhor nóia, e tem tudo para UM DIA ser o NÓIA DOS NÓIA (31/50)"
+                sobrenoia = "Você quase o melhor nóia, e tem tudo para UM DIA ser o NÓIA DOS NÓIA (49/50)"
                 break
             case 26:
                 noia = "Lindu Nóia"
                 fotonoia = "noia/lindinho.jpg"
-                sobrenoia = "Você é um nóia definitivamente, talvez não tão completo mas atinjes muitos dos requisitos para ser um nóia (30/32)"
+                sobrenoia = "Você é um nóia definitivamente, talvez não tão completo mas atinjes muitos dos requisitos para ser um nóia (48/50)"
                 break
             case 25:
                 noia = "Anão Nóia"
                 fotonoia = "noia/anao-noia.jpg"
-                sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (29/32)"
+                sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (47/50)"
                 break
             case 24:
                 noia = "Cachorro Fumaça"
                 fotonoia = "noia/cachorro-fumaça.jpg"
-                sobrenoia = "MACONHERU, vai murre antes do natal, um nóia diferenciado (28/32)"
+                sobrenoia = "MACONHERU, vai murre antes do natal, um nóia diferenciado (46/50)"
                 break
             case 23:
                 noia = "Nóia Armado"
-                fotonoia = "noia/nóia-armado.jpg"
-                sobrenoia = "Um nóia que perambula com um fuzil .50 nas kostas naipy GTA, já perdeu dois dedo por ser meio burro (27/32)"
+                fotonoia = "noia/noia-armado.jfif"
+                sobrenoia = "Um nóia que perambula com um fuzil .50 nas kostas naipy GTA, já perdeu dois dedo por ser meio burro (45/50)"
                 break
             case 22:
                 noia = "Nóia Diferente"
                 fotonoia = "noia/noia-cagado.jfif"
-                sobrenoia = "Você é um nóia mas não tão bom, mas é um nóia, do tipo que rouba fio de posto de gasolina falido! (26/32)"
+                sobrenoia = "Você é um nóia mas não tão bom, mas é um nóia, do tipo que rouba fio de posto de gasolina falido! (44/50)"
                 break
             case 21:
                 noia = "Rusbé"
                 fotonoia = "noia/rusbe.jpg"
-                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (25/32)"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (43/50)"
                 break
             case 20:
                 noia = "Tipo de Tuê"
                 fotonoia = "noia/matue-deep-web.jpg"
-                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (24/32)"
+                sobrenoia = "Tuê um nóia, mas é mei estranho (tipo MaTuê), Tu num come doce só sal. (42/50)"
                 break
             case 19:
                 noia = "Loirin Jusé"
                 fotonoia = "noia/loro.jpg"
-                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (23/32)"
+                sobrenoia = "C gosta da Marijuana Né? (41/50)"
                 break
             case 18:
                 noia = "Lucas Nóismo"
                 fotonoia = "noia/lucas-noia.jpg"
-                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (22/32)"
+                sobrenoia = "FoDa, vc é nóia mas é gente boa! S2 (40/50)"
                 break
             case 17:
                 noia = "BoB Nóia"
-                fotonoia = "bob-sponja-noia.jfif"
-                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (21/32)"
+                fotonoia = "noia/bob-sponja-noia.jfif"
+                sobrenoia = "Logo Como, Bobson Nóia! (39/50)"
+                break
+            case 16:
+                noia = "Todo Nicolas Cagezinho"
+                fotonoia = "noia/cage.jfif"
+                sobrenoia = "Num Uso Mais Crack, qué dize 3, 4 vezes no ano só! (38/50)"
+                break
+            case 15:
+                noia = "Pozer"
+                fotonoia = "noia/poze.jpg"
+                sobrenoia = "Nem tenho comentário, tu é u poze, mas uma versão deformada dele! (37/50)"
+                break
+            case 14:
+                noia = "Limador"
+                fotonoia = "noia/liminha.jfif"
+                sobrenoia = "Tu é Um nóia Gaymer! (36/50)"
+                break
+            case 13:
+                noia = "Limador"
+                fotonoia = "noia/liminha.jfif"
+                sobrenoia = "Tu é Um nóia Gaymer! (35/50)"
                 break
         }
     }
