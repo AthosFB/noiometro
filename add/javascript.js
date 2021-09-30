@@ -235,17 +235,28 @@ function cabo() {
             case 12: // 17
                 noia = "Nóia Prata"
                 fotonoia = "noia/anao-prateado.png"
-                sobrenoia = "Verdade ANÃO Prato(34/50)"
+                sobrenoia = "Verdade ANÃO Prata, é isso -> (34/50)"
                 break
             case 11: // 18
                 noia = "Kualy"
                 fotonoia = "noia/qualy.jpg"
                 sobrenoia = "U Maluco é u Qualy KKKK, Mt foda (mas n é nóia top:() (34/50)"
                 break
-            case 10: // 19
+            case 10: // 17
                 noia = "Monark"
                 fotonoia = "noia/monark.jpg"
                 sobrenoia = "Ma -  Co - Hha (As unicas sílabas que esse ser conhece) (33/50)"
+                break
+            case 9: // 18
+                noia = "Dentuço"
+                fotonoia = "noia/dente.jpg"
+                sobrenoia = "F pra esse nóia ai, nóia malomé. (32/50)"
+                break
+
+            case -21: // 48
+                noia = "Sério? kkk"
+                fotonoia = "noia/serio.jpg_large"
+                sobrenoia = "Ta longe de ser nóia (3/50)"
                 break
             case -21: // 49
                 noia = "Rei"
