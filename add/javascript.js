@@ -255,7 +255,7 @@ function cabo() {
             case 9: // 18
                 noia = "Luca Hype"
                 fotonoia = "noia/lucahype.jpg"
-                sobrenoia = "F pra esse nóia ai, nóia malomé. (32/50)"
+                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo (32/50)"
                 break
 
             case -21: // 48
