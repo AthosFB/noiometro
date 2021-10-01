@@ -19,8 +19,8 @@ header {
     width: 100%;
     margin: 0 0 5% 0;
     text-align: center;
-    font: normal 7em noia;
-    line-height: 250px;
+    font: normal 8em noia;
+    line-height: 3em;
 }
 .prime { 
     margin-top: 5%;
@@ -30,27 +30,26 @@ label {
     cursor: pointer;
 }
 form h2 {
-    font-family: pingu;
-    font-weight: 550;
+    font: 550 2em pingu;
+    text-align: center;
 }
-li {
-    font: normal 30px txt;
-}
-form {  
+form {
+    font: normal 2.3em txt;
     width: 54%;
     margin-left: 10%;
-    border: 10px groove black;
-    padding: 30px;
-    border-radius: 10px;
+    border: 0.33em groove black;
+    padding: 0.86em;
+    border-radius: 0.5em;
     background-color: white;
 }
 #fim:hover {
     background-color: #F59A01;
     transition: 0.5s;
     cursor: pointer;
+    transform: scale(1.1);
 }
 #musinoia {
-    height: 1000px;
+    height: 40em;
     background-color: #888888;
     box-shadow: 3px 3px 3px #F59A01;
     width: 25%;
@@ -59,50 +58,46 @@ form {
     border-radius: 10px;
 }
 #musinoia h2{
-    font: normal 30px txt;
+    font: normal 2.5em txt;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 #musi {
-    height: 26.3%;
+    height: 41%;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 20%;
 }
 input {
-    width: 30px;
-    height: 30px;
+    width: 3em;
+    height: 3em;
     display: inline-block;
     cursor: pointer;
 }
 #fim {
-    margin-top: 50px;
-    width: 30%;
-    height: 100px;
-    font: normal 2.7em pingu;
-    margin-left: 37%;
+    margin-top: 2%;
+    width: 50%;
+    height: 100%;
+    font: normal 2em pingu;
+    margin-left: 25%;
 }
 footer {
-    margin-top: 250px;
+    margin-top: 10%;
     background-image: url("pexels-life-of-pix-8892 (1).jpg");
     height: 250px;
 }
 footer h2 {
     text-align: center;
-    font: normal 80px txt;
+    font: normal 6em txt;
     text-shadow: 3px 3px 3px black;
     color: white;
-    line-height: 150px;
+    line-height: 2em;
 }
 footer p {
     text-align: center;
-    font: normal 20px txt;
+    font: normal 1em txt;
     color: white;
     text-shadow: 3px 3px 3px black;
     width: 100%;
-}
-h2 {
-    font: normal 50px noia;
-    text-align: center;
 }
 label:hover {
     color: #F59A01;

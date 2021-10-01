@@ -126,7 +126,9 @@ function cabo() {
     else {
         validador = "n"
     }
+    validador = ""
     if (validador != "n") {
+        tot = 21
         escolhe()
         cont.innerHTML = ""
         resp.innerHTML = `<p id="para">Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p id="para">${sobrenoia} ${tot}</p>`
@@ -137,8 +139,8 @@ function cabo() {
         resp.style.margin = "0px 0px 50px 150px"
         resp.style.textAlign = "center"
         fot.style.height = "500px"
-        resp.style.font = "normal 40px txt"
-        resp.style.padding = "30px"
+        resp.style.font = "normal 3em txt"
+        resp.style.padding = "1em"
         volt.innerHTML = '<a href="index.html" id="botvolt"><= Volt+ r</a>'
     }
     else {
