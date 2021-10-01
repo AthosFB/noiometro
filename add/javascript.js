@@ -108,7 +108,7 @@ function cabo() {
     else {
         validador = "n"
     }
-    if (mot[0].checked) { // 9
+    if (mot[0].checked) { // 10
         tot += 3
     }
     else if (mot[1].checked) {
@@ -117,7 +117,7 @@ function cabo() {
     else {
         validador = "n"
     }
-    if (cast[0].checked) { // 9
+    if (cast[0].checked) { // 11
         tot += 0
     }
     else if (cast[1].checked) {
@@ -242,23 +242,33 @@ function cabo() {
                 fotonoia = "noia/qualy.jpg"
                 sobrenoia = "U Maluco é u Qualy KKKK, Mt foda (mas n é nóia top:() (34/50)"
                 break
-            case 10: // 17
+            case 10: // 19
                 noia = "Monark"
                 fotonoia = "noia/monark.jpg"
                 sobrenoia = "Ma -  Co - Hha (As unicas sílabas que esse ser conhece) (33/50)"
                 break
-            case 9: // 18
+            case 9: // 20
                 noia = "Dentuço"
                 fotonoia = "noia/dente.jpg"
                 sobrenoia = "F pra esse nóia ai, nóia malomé. (32/50)"
                 break
-            case 9: // 18
+            case 8: // 21
                 noia = "Luca Hype"
                 fotonoia = "noia/lucahype.jpg"
-                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo (32/50)"
+                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo de Kualy dade. (31/50)"
+                break
+            case 7: // 22
+                noia = "Nóia Assustado"
+                fotonoia = "noia/noia-assustado.jpg"
+                sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (30/50)"
                 break
 
-            case -21: // 48
+            case -19: // 47
+                noia = "Orochinho"
+                fotonoia = "noia/orochi.png"
+                sobrenoia = "Vc é o oposto de um nóia, vc é um orochi no máximo Joga Rp (4/50)"
+                break
+            case -20: // 48
                 noia = "Sério? kkk"
                 fotonoia = "noia/serio.jpg_large"
                 sobrenoia = "Ta longe de ser nóia (3/50)"
