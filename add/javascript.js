@@ -126,9 +126,7 @@ function cabo() {
     else {
         validador = "n"
     }
-    validador = ""
     if (validador != "n") {
-        tot = 21
         escolhe()
         cont.innerHTML = ""
         resp.innerHTML = `<p id="para">Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p id="para">${sobrenoia} ${tot}</p>`
