@@ -134,7 +134,7 @@ function cabo() {
         resp.style.width = "80%"
         resp.style.height = "100%"
         resp.style.borderRadius = "10px"
-        resp.style.margin = "0px 0px 50px 150px"
+        resp.style.margin = "auto"
         resp.style.textAlign = "center"
         fot.style.height = "500px"
         resp.style.font = "normal 3em txt"
@@ -262,7 +262,17 @@ function cabo() {
                 fotonoia = "noia/noia-assustado.jpg"
                 sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (30/50)"
                 break
+            case 6: // 23
+                noia = "    "
+                fotonoia = "noia/nognoia.jfif"
+                sobrenoia = "Tu é (quase) um nóia engraçado (29/50)"
+                break
 
+            case -18: // 46
+                noia = "Bosta"
+                fotonoia = "noia/bolsolinha.jpg"
+                sobrenoia = "Vc é uma vergonha VAZA, n é nada de mais (5/50)"
+                break
             case -19: // 47
                 noia = "Orochinho"
                 fotonoia = "noia/orochi.png"

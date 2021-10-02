@@ -109,6 +109,7 @@ label:hover {
     font: normal 60px pingu;
     margin-left: 400px;
     position: absolute;
+    top: 1235px;
     color: black;
 }
 #botvolt:hover {
