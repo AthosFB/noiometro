@@ -263,11 +263,16 @@ function cabo() {
                 sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (30/50)"
                 break
             case 6: // 23
-                noia = "    "
+                noia = "NogNóia"
                 fotonoia = "noia/nognoia.jfif"
                 sobrenoia = "Tu é (quase) um nóia engraçado (29/50)"
                 break
 
+            case -17: // 45
+                noia = "Cara Estranho"
+                fotonoia = "noia/predenoia.jpg"
+                sobrenoia = "Vc é uma vergonha VAZA, n é nada de mais (6/50)"
+                break
             case -18: // 46
                 noia = "Bosta"
                 fotonoia = "noia/bolsolinha.jpg"
