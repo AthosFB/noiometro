@@ -267,7 +267,12 @@ function cabo() {
                 fotonoia = "noia/nognoia.jfif"
                 sobrenoia = "Tu é (quase) um nóia engraçado (29/50)"
                 break
-
+            case 5: // 23
+                noia = "Day Trader"
+                fotonoia = "noia/day-trader.jpg"
+                sobrenoia = "KKKK nóia day trader, nóia tem manha de fazer dinheiro. (28/50)"
+                break
+            
             case -17: // 45
                 noia = "Cara Estranho"
                 fotonoia = "noia/predenoia.jpg"
