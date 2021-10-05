@@ -273,6 +273,11 @@ function cabo() {
                 sobrenoia = "KKKK nóia day trader, nóia tem manha de fazer dinheiro. (28/50)"
                 break
 
+            case -14: // 42
+                noia = "Pessoa Estranha"
+                fotonoia = "noia/pessoa-estranha.jfif"
+                sobrenoia = "Vc só é estranho msm, mt estranho! (9/50)"
+                break
             case -15: // 43
                 noia = "Num Sei"
                 fotonoia = "noia/sla.jfif"
