@@ -240,39 +240,65 @@ function cabo() {
             case 11: // 18
                 noia = "Kualy"
                 fotonoia = "noia/qualy.jpg"
-                sobrenoia = "U Maluco é u Qualy KKKK, Mt foda (mas n é nóia top:() (34/50)"
+                sobrenoia = "U Maluco é u Qualy KKKK, Mt foda (mas n é nóia top:() (33/50)"
                 break
             case 10: // 19
                 noia = "Monark"
                 fotonoia = "noia/monark.jpg"
-                sobrenoia = "Ma -  Co - Hha (As unicas sílabas que esse ser conhece) (33/50)"
+                sobrenoia = "Ma -  Co - Hha (As unicas sílabas que esse ser conhece). (32/50)"
                 break
             case 9: // 20
                 noia = "Dentuço"
                 fotonoia = "noia/dente.jpg"
-                sobrenoia = "F pra esse nóia ai, nóia malomé. (32/50)"
+                sobrenoia = "F pra esse nóia ai, nóia malomé. (31/50)"
                 break
             case 8: // 21
                 noia = "Luca Hype"
                 fotonoia = "noia/lucahype.jpg"
-                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo de Kualy dade. (31/50)"
+                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo de Kualy dade. (30/50)"
                 break
             case 7: // 22
                 noia = "Nóia Assustado"
                 fotonoia = "noia/noia-assustado.jpg"
-                sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (30/50)"
+                sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (29/50)"
                 break
             case 6: // 23
                 noia = "NogNóia"
                 fotonoia = "noia/nognoia.jfif"
-                sobrenoia = "Tu é (quase) um nóia engraçado (29/50)"
+                sobrenoia = "Tu é (quase) um nóia engraçado. (28/50)"
                 break
             case 5: // 24
                 noia = "Day Trader"
                 fotonoia = "noia/day-trader.jpg"
-                sobrenoia = "KKKK nóia day trader, nóia tem manha de fazer dinheiro. (28/50)"
+                sobrenoia = "KKKK nóia day trader, nóia tem manha de fazer dinheiro. (27/50)"
                 break
+            case 4: // 25
+                noia = "Igor 3k"
+                fotonoia = "noia/igao.jfif"
+                sobrenoia = "É malomé esse nóia ai, quase nada de nóia mas da pro gasto. (26/50)"
+                break
+            case 3: // 26
+                noia = "Spvic de Boina"
+                fotonoia = "noia/spvic.jfif"
+                sobrenoia = "Tipo o leon traper, é meio leon e meio traper. (25/50)"
+                break
+            case 2: // 27
+                noia = "Poze Gordo"
+                fotonoia = "noia/poze-gordo.jpg"
+                sobrenoia = "É o Poze, Mas é gordo, sla, um pouco (quase nada nóia). (24/50)"
+                break
+            case 1: // 28
+                noia = "Igão"
+                fotonoia = "noia/igão-noia.jpg"
+                sobrenoia = "Acalme-se, Acalme-se, vc n é nóia, continmua tentado. (23/50)"
+                break
+    
 
+            case -13: // 41
+                noia = "Predella (msm)"
+                fotonoia = "noia/predenoia.jpg"
+                sobrenoia = "Nóia Num É (10/50)"
+                break
             case -14: // 42
                 noia = "Pessoa Estranha"
                 fotonoia = "noia/pessoa-estranha.jfif"
