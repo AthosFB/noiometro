@@ -129,17 +129,18 @@ function cabo() {
     if (validador != "n") {
         escolhe()
         cont.innerHTML = ""
-        resp.innerHTML = `<p id="para">Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p id="para">${sobrenoia} ${tot}</p>`
+        resp.innerHTML = `<p id="para">Parabéns Você é Um ${noia}</p><img src="${fotonoia}" alt="Nóia" id="fot"><p id="para">${sobrenoia} ${tot}</p>
+        <hr>  <a href="index.html" id="botvolt">Volt+ r</a>`
         resp.style.backgroundColor = "#888888"
         resp.style.width = "80%"
         resp.style.height = "100%"
         resp.style.borderRadius = "10px"
         resp.style.margin = "auto"
         resp.style.textAlign = "center"
+        resp.style.position = "relative"
         fot.style.height = "500px"
         resp.style.font = "normal 3em txt"
         resp.style.padding = "1em"
-        volt.innerHTML = '<a href="index.html" id="botvolt"><= Volt+ r</a>'
     }
     else {
         zoa.innerText = "Completa os Bagui Aí O Nóia"
