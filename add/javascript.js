@@ -156,194 +156,260 @@ function cabo() {
             case 28: // 1
                 noia = "Garibaldo"
                 fotonoia = "noia/garibaldo.jpg"
-                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia, Na verdade vocês garibaldos não são noias, NÓIAS SÃO GARIBALDOS(50/50)"
+                sobrenoia = "Você é o nóia dos Nóia, e deve ser respeitado por qualquer Nóia, Na verdade vocês garibaldos não são noias, NÓIAS SÃO GARIBALDOS(51/51)"
                 break
             case 27: // 2
                 noia = "Nóia Nóia"
                 fotonoia = "noia/noia.jfif"
-                sobrenoia = "Você quase o melhor nóia, e tem tudo para UM DIA ser o NÓIA DOS NÓIA (49/50)"
+                sobrenoia = "Você quase o melhor nóia, e tem tudo para UM DIA ser o NÓIA DOS NÓIA (50/51)"
                 break
             case 26: // 3
                 noia = "Lindu Nóia"
                 fotonoia = "noia/lindinho.jpg"
-                sobrenoia = "Você é um nóia definitivamente, talvez não tão completo mas atinjes muitos dos requisitos para ser um nóia (48/50)"
+                sobrenoia = "Você é um nóia definitivamente, talvez não tão completo mas atinjes muitos dos requisitos para ser um nóia (49/51)"
                 break
             case 25: // 4
                 noia = "Anão Nóia"
                 fotonoia = "noia/anao-noia.jpg"
-                sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (47/50)"
+                sobrenoia = "Quase, Você é tipo um nóia gerente (anão, (todo gerente é (anão))) você é bom mas nada mais (48/51)"
                 break
             case 24: // 5
                 noia = "Cachorro Fumaça"
                 fotonoia = "noia/cachorro-fumaça.jpg"
-                sobrenoia = "MACONHERU, vai murre antes do natal, um nóia diferenciado (46/50)"
+                sobrenoia = "MACONHERU, vai murre antes do natal, um nóia diferenciado (47/51)"
                 break
             case 23: // 6
                 noia = "Nóia Armado"
                 fotonoia = "noia/noia-armado.jfif"
-                sobrenoia = "Um nóia que perambula com um fuzil .50 nas kostas naipy GTA, já perdeu dois dedo por ser meio burro (45/50)"
+                sobrenoia = "Um nóia que perambula com um fuzil .50 nas kostas naipy GTA, já perdeu dois dedo por ser meio burro (46/51)"
                 break
             case 22: // 7
                 noia = "Nóia Diferente"
                 fotonoia = "noia/noia-cagado.jfif"
-                sobrenoia = "Você é um nóia mas não tão bom, mas é um nóia, do tipo que rouba fio de posto de gasolina falido! (44/50)"
+                sobrenoia = "Você é um nóia mas não tão bom, mas é um nóia, do tipo que rouba fio de posto de gasolina falido! (45/51)"
                 break
             case 21: // 8
                 noia = "Rusbé"
                 fotonoia = "noia/rusbe.jpg"
-                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (43/50)"
+                sobrenoia = "Você é um Aspirante a nóia ou você é uma crianaça que deseja um dia ser um nóia ou é um nóia bem ruim mesmo. (44/51)"
                 break
             case 20: // 9
                 noia = "Tipo de Tuê"
                 fotonoia = "noia/matue-deep-web.jpg"
-                sobrenoia = "Tuê um nóia, mas é mei estranho (tipo MaTuê), Tu num come doce só sal. (42/50)"
+                sobrenoia = "Tuê um nóia, mas é mei estranho (tipo MaTuê), Tu num come doce só sal. (43/51)"
                 break
             case 19: // 10
                 noia = "Loirin Jusé"
                 fotonoia = "noia/loro.jpg"
-                sobrenoia = "C gosta da Marijuana Né? (41/50)"
+                sobrenoia = "C gosta da Marijuana Né? (42/51)"
                 break
             case 18: // 11
                 noia = "Lucas Nóismo"
                 fotonoia = "noia/lucas-noia.jpg"
-                sobrenoia = "FoDa, vc é nóia mas é gente boa! S2 (40/50)"
+                sobrenoia = "FoDa, vc é nóia mas é gente boa! S2 (41/51)"
                 break
             case 17: // 12
                 noia = "BoB Nóia"
                 fotonoia = "noia/bob-sponja-noia.jfif"
-                sobrenoia = "Logo Como, Bobson Nóia! (39/50)"
+                sobrenoia = "Logo Como, Bobson Nóia! (40/51)"
                 break
             case 16: // 13
                 noia = "Todo Nicolas Cagezinho"
                 fotonoia = "noia/cage.jfif"
-                sobrenoia = "Num Uso Mais Crack, qué dize 3, 4 vezes no ano só! (38/50)"
+                sobrenoia = "Num Uso Mais Crack, qué dize 3, 4 vezes no ano só! (39/51)"
                 break
             case 15: // 14
                 noia = "Pozer"
                 fotonoia = "noia/poze.jpg"
-                sobrenoia = "Nem tenho comentário, tu é u poze, mas uma versão deformada dele! (37/50)"
+                sobrenoia = "Nem tenho comentário, tu é u poze, mas uma versão deformada dele! (38/51)"
                 break
             case 14: // 15
                 noia = "Limador"
                 fotonoia = "noia/liminha.jfif"
-                sobrenoia = "Tu é Um nóia Gaymer! (36/50)"
+                sobrenoia = "Tu é Um nóia Gaymer! (37/51)"
                 break
             case 13: // 16
                 noia = "Sidoka"
                 fotonoia = "noia/sidoka.jpg"
-                sobrenoia = "KKK o maluco acha que é nóia msm, melhore (vc é um nóia mei bosta)! (35/50)"
+                sobrenoia = "KKK o maluco acha que é nóia msm, melhore (vc é um nóia mei bosta)! (36/51)"
                 break
             case 12: // 17
                 noia = "Nóia Prata"
                 fotonoia = "noia/anao-prateado.png"
-                sobrenoia = "Verdade ANÃO Prata, é isso -> (34/50)"
+                sobrenoia = "Verdade ANÃO Prata, é isso -> (35/51)"
                 break
             case 11: // 18
                 noia = "Kualy"
                 fotonoia = "noia/qualy.jpg"
-                sobrenoia = "U Maluco é u Qualy KKKK, Mt foda (mas n é nóia top:() (33/50)"
+                sobrenoia = "U Maluco é u Qualy KKKK, Mt foda (mas n é nóia top:() (34/51)"
                 break
             case 10: // 19
                 noia = "Monark"
                 fotonoia = "noia/monark.jpg"
-                sobrenoia = "Ma -  Co - Hha (As unicas sílabas que esse ser conhece). (32/50)"
+                sobrenoia = "Ma -  Co - Hha (As unicas sílabas que esse ser conhece). (33/51)"
                 break
             case 9: // 20
                 noia = "Dentuço"
                 fotonoia = "noia/dente.jpg"
-                sobrenoia = "F pra esse nóia ai, nóia malomé. (31/50)"
+                sobrenoia = "F pra esse nóia ai, nóia malomé. (32/51)"
                 break
             case 8: // 21
                 noia = "Luca Hype"
                 fotonoia = "noia/lucahype.jpg"
-                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo de Kualy dade. (30/50)"
+                sobrenoia = "Ta tentando ser nóia bom, mas é meio fraquinho comparado com Garibaldo de Kualy dade. (31/51)"
                 break
             case 7: // 22
                 noia = "Nóia Assustado"
                 fotonoia = "noia/noia-assustado.jpg"
-                sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (29/50)"
+                sobrenoia = "Ta Assustado Nóia? Tu tem que desasustar para ser um bom nóia. (30/51)"
                 break
             case 6: // 23
                 noia = "NogNóia"
                 fotonoia = "noia/nognoia.jfif"
-                sobrenoia = "Tu é (quase) um nóia engraçado. (28/50)"
+                sobrenoia = "Tu é (quase) um nóia engraçado. (29/51)"
                 break
             case 5: // 24
                 noia = "Day Trader"
                 fotonoia = "noia/day-trader.jpg"
-                sobrenoia = "KKKK nóia day trader, nóia tem manha de fazer dinheiro. (27/50)"
+                sobrenoia = "KKKK nóia day trader, nóia tem manha de fazer dinheiro. (28/51)"
                 break
             case 4: // 25
                 noia = "Igor 3k"
                 fotonoia = "noia/igao.jfif"
-                sobrenoia = "É malomé esse nóia ai, quase nada de nóia mas da pro gasto. (26/50)"
+                sobrenoia = "É malomé esse nóia ai, quase nada de nóia mas da pro gasto. (27/51)"
                 break
             case 3: // 26
                 noia = "Spvic de Boina"
                 fotonoia = "noia/spvic.jfif"
-                sobrenoia = "Tipo o leon traper, é meio leon e meio traper. (25/50)"
+                sobrenoia = "Tipo o leon traper, é meio leon e meio traper. (26/51)"
                 break
             case 2: // 27
                 noia = "Poze Gordo"
                 fotonoia = "noia/poze-gordo.jpg"
-                sobrenoia = "É o Poze, Mas é gordo, sla, um pouco (quase nada nóia). (24/50)"
+                sobrenoia = "É o Poze, Mas é gordo, sla, um pouco (quase nada nóia). (25/51)"
                 break
             case 1: // 28
                 noia = "Igão"
                 fotonoia = "noia/igão-noia.jpg"
-                sobrenoia = "Acalme-se, Acalme-se, vc n é nóia, continmua tentado. (23/50)"
+                sobrenoia = "Acalme-se, Acalme-se, vc n é nóia, continmua tentado. (24/51)"
+                break
+            case 0: // 29
+                noia = "Pulissa Nóia"
+                fotonoia = "noia/Pulissa.jpg"
+                sobrenoia = "É, nóia você não é mas não ta TÃO ruim, a daqui uns anos quem sabe você vira um!(23/51)"
+                break
+
+            case -1: // 30
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(22/51)"
+                break
+            case -2: // 31
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(21/51)"
+                break
+            case -3: // 32
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(20/51)"
+                break
+            case -4: // 33
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(19/51)"
+                break
+            case -5: // 34
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(18/51)"
+                break
+            case -6: // 35
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(17/51)"
+                break
+            case -7: // 36
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(16/51)"
+                break
+            case -8: // 37
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(15/51)"
+                break
+            case -9: // 38
+                noia = ""
+                fotonoia = "noia/."
+                sobrenoia = "(14/51)"
+                break
+            case -10: // 39
+                noia = ""
+                fotonoia = "noia/.jpg"
+                sobrenoia = "(13/51)"
+                break
+            case -11: // 40
+                noia = ""
+                fotonoia = "noia/"
+                sobrenoia = "(12/51)"
+                break
+            case -12: // 41
+                noia = ""
+                fotonoia = "noia/"
+                sobrenoia = "(11/51)"
                 break
     
 
-            case -13: // 41
+            case -13: // 42
                 noia = "Predella (msm)"
                 fotonoia = "noia/predenoia.jpg"
-                sobrenoia = "Nóia Num É (10/50)"
+                sobrenoia = "Nóia Num É (10/51)"
                 break
-            case -14: // 42
+            case -14: // 43
                 noia = "Pessoa Estranha"
                 fotonoia = "noia/pessoa-estranha.jfif"
-                sobrenoia = "Vc só é estranho msm, mt estranho! (9/50)"
+                sobrenoia = "Vc só é estranho msm, mt estranho! (9/51)"
                 break
-            case -15: // 43
+            case -15: // 44
                 noia = "Num Sei"
                 fotonoia = "noia/sla.jfif"
-                sobrenoia = "Sla O que vc é ninguém sabe. (8/50)"
+                sobrenoia = "Sla O que vc é ninguém sabe. (8/51)"
                 break
-            case -16: // 44
+            case -16: // 45
                 noia = "Felps"
                 fotonoia = "noia/felps.jfif"
-                sobrenoia = "Uma Pessoa Que Joga uns Joguinho Online. (Nem Um Pouco Nóia) (7/50)"
+                sobrenoia = "Uma Pessoa Que Joga uns Joguinho Online. (Nem Um Pouco Nóia) (7/51)"
                 break
-            case -17: // 45
+            case -17: // 46
                 noia = "Cara Estranho"
                 fotonoia = "noia/predenoia.jpg"
-                sobrenoia = "Vc é uma vergonha VAZA, n é nada de mais (6/50)"
+                sobrenoia = "Vc é uma vergonha VAZA, n é nada de mais (6/51)"
                 break
-            case -18: // 46
+            case -18: // 47
                 noia = "Bosta"
                 fotonoia = "noia/bolsolinha.jpg"
-                sobrenoia = "Vc é uma vergonha VAZA, n é nada de mais (5/50)"
+                sobrenoia = "Vc é uma vergonha VAZA, n é nada de mais (5/51)"
                 break
-            case -19: // 47
+            case -19: // 48
                 noia = "Orochinho"
                 fotonoia = "noia/orochi.png"
-                sobrenoia = "Vc é o oposto de um nóia, vc é um orochi no máximo Joga Rp (4/50)"
+                sobrenoia = "Vc é o oposto de um nóia, vc é um orochi no máximo Joga Rp (4/51)"
                 break
-            case -20: // 48
+            case -20: // 49
                 noia = "Sério? kkk"
                 fotonoia = "noia/serio.jpg_large"
                 sobrenoia = "Ta longe de ser nóia (3/50)"
                 break
-            case -21: // 49
+            case -21: // 50
                 noia = "Rei"
                 fotonoia = "noia/roberto.jpg"
-                sobrenoia = "É, num foi dessa vez mas tem gente menos nóia q vc (2/50)"
+                sobrenoia = "É, num foi dessa vez mas tem gente menos nóia q vc (2/51)"
                 break
-            case -22: // 50
+            case -22: // 51
                 noia = "Normal?"
                 fotonoia = "noia/normal.jpg"
-                sobrenoia = "Esquece Vc n é NEM um Poico Nóia, Disiti :( (1/50)"
+                sobrenoia = "Esquece Vc n é NEM um Poico Nóia, Disiti :( (1/51)"
                 break
         }
     }
